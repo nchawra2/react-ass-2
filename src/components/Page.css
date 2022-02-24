@@ -1,0 +1,53 @@
+
+.employee-form {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.employee-form h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  padding: 10px 25px;
+  border-color: black;
+  border-radius: 30px;
+  background-color: aqua;
+  font-size: 30px;
+}
+
+label {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.employees-data {
+  width: 1300px;
+  margin: auto;
+  border-style: solid;
+  margin-top: 100px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  background-color: cadetblue;
+}
+
+.employee {
+  border-style: solid;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(199, 69, 199, 0.404);
+}
+
+.employee h3 {
+  font-size: 22px;
+}
